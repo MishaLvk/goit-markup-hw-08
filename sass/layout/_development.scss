@@ -1,9 +1,11 @@
 .section__development {
+  display: none;
   padding-bottom: 94px;
 }
 
 .section-development__list {
-  display: flex;
+  
+  // display: flex;
 }
 
 .section-development-list__item:not(:last-child) {

@@ -1,20 +1,23 @@
 .team {
     background-color: rgb(245, 244, 250);
+    
   }
   
   .team__list {
-    display: flex;
-    margin-left: -30px;
+    // display: flex;
+    margin-bottom: -30px;
   }
   
   .team-list__item {
-    flex-basis: calc((100% - 120px) / 4);
-    margin-left: 30px;
+    display: block;
+    // flex-basis: calc((100% - 120px) / 4);
+    // margin-left: 30px;
   }
   
   .team-list__element{
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   
   .team-list-description {
@@ -31,6 +34,7 @@
     letter-spacing: var(--dominant-l-s);
     color: var(--title-color);
     margin-bottom: 10px;
+    // margin-bottom: 30px;
   }
   
   .team-list-description__text {

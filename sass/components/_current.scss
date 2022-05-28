@@ -2,7 +2,8 @@
     color: rgb(33, 150, 243);
     position: relative;
 
-    &::after{
+    @media screen and (min-width: 768px) {
+        &::after{
         content: '';
     display: block;
     width: 100%;
@@ -12,6 +13,8 @@
     position: absolute;
     bottom: -1px;
     }
+      }
+    
   }
   
   

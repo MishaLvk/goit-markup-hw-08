@@ -7,7 +7,7 @@
   .logo__footer {
     display: inline-block;
     margin-bottom: 20px;
-    margin-right: 93px;
+    // margin-right: 93px;
   }
   
   .logo--light {
@@ -15,7 +15,8 @@
   }
   
   .footer-contacts-list__item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+    // margin-bottom: 9px;
   }
   
   .footer-contacts-list__link {
@@ -37,7 +38,9 @@
     }
   }
   
- 
+  .footer-contacts-list{
+    margin-bottom: 60px;
+  }
   
   .footer-contacts-list--address{
     color: rgb(255, 255, 255);
@@ -48,7 +51,8 @@
   }
   
   .futer__container{
-    display: flex;
+    // display: flex;
+    text-align: center;
   }
   
   .join-title{
@@ -64,8 +68,9 @@
   }
   
   .join{
-    margin-left: 70px;
-    padding-top: 12px;
+    // margin-left: 70px;
+    // padding-top: 12px;
+    margin-bottom: 60px;
   }
   
     .soc-list__link--join{
@@ -81,13 +86,13 @@
   
   
   .soc-list__item:not(:last-child) {
-    margin-right: 10px;
+    // margin-right: 10px;
   }
   
   
   
   .footer__subscription{
-    margin-left: 93px;
+    // margin-left: 93px;
     padding-top: 12px;
   }
   
@@ -95,13 +100,15 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 16px;
+    // font-size: 14px;
     line-height: 1.14;
     letter-spacing: var(--dominant-l-s);
   }
   
   .subscription__input{
-    width: 358px;
+    width: 100%;
+    // width: 358px;
     height: 50px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -115,7 +122,8 @@
     color: rgba(255, 255, 255, 0.6);
     outline: none;
     cursor: pointer;
-    margin-right: 12px;
+    margin-bottom: 20px;
+    // margin-right: 12px;
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -129,10 +137,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   
   .subscription__form{
-    display: flex;
+    width: 100 vw;
+    // display: flex;
   }
   
   .subscription__icon{

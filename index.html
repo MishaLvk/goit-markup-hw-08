@@ -61,7 +61,57 @@
             >
           </li>
         </ul>
+        <button type="button" class="open-menu-button" data-menu-open><svg class="open-menu-icon" width="40" height="40">
+          <use href="./images/symbol-defs.svg#icon-menu"></use>
+        </svg></button>
       </div>
+
+      <div class="mobile-menu is-hidden" data-menu>
+        <div class="container">
+          <div class="mob-menu-nav">
+        <button type="button" class="close-menu-button" data-menu-close><svg width="31" height="31">
+          <use href="./images/symbol-defs.svg#icon-close-black"></use>
+        </svg></button>
+        <ul class="list mobile-menu-navigation">
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="link mobile-menu-link current">Студия</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="./portfolio.html" class="link mobile-menu-link"
+              >Портфолио</a
+            >
+          </li>
+          <li class="mobile-menu-item">
+            <a href="" class="link mobile-menu-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mob-menu-contacts">
+        <ul class="list mobile-menu-contacts">
+          
+          <li class="mobile-menu-contacts-list">
+            <a href="tel:+380961111111" class="link mobile-menu-contacts-tel"
+              > +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu-contacts-list">
+            <a
+              href="mailto:info@devstudio.com"
+              class="link mobile-menu-contacts-mail"
+            > info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="list mobile-menu-soc-list">
+          <li class="mobile-soc-list__item"><a href="" class="link mobile-soc-list-link">instagram</a></li>
+          <li class="mobile-soc-list__item"><a href="" class="link mobile-soc-list-link">twitter</a></li>
+          <li class="mobile-soc-list__item"><a href="" class="link mobile-soc-list-link">facebook</a></li>
+          <li class="mobile-soc-list__item"><a href="" class="link mobile-soc-list-link">linkedin</a></li>
+        </ul>
+      </div>
+      </div>
+      </div>
+
     </header>
     <main>
       <section class="hero">
@@ -173,7 +223,7 @@
               <img
                 src="./images/demianenko.jpg"
                 alt="Фотография Игоря Демьяненка"
-                width="270"
+                width="100%"
               />
               <div class="team-list-description team-list__element">
                 <h3 class="team-list-description__title">Игорь Демьяненко</h3>
@@ -200,7 +250,7 @@
               <img
                 src="./images/repyna.jpg"
                 alt="Фотография Ольги Репиной"
-                width="270"
+                width="100%"
               />
               <div class="team-list-description team-list__element">
                 <h3 class="team-list-description__title">Ольга Репина</h3>
@@ -227,7 +277,7 @@
               <img
                 src="./images/tarasov.jpg"
                 alt="Фотография Николая Тарасова"
-                width="270"
+                width="100%"
               />
               <div class="team-list-description team-list__element">
                 <h3 class="team-list-description__title">Николай Тарасов</h3>
@@ -254,7 +304,7 @@
               <img
                 src="./images/ermakov.jpg"
                 alt="Фотография  Михаила Ермакова"
-                width="270"
+                width="100%"
               />
               <div class="team-list-description team-list__element">
                 <h3 class="team-list-description__title">Михаил Ермаков</h3>
@@ -293,7 +343,7 @@
             <li class="customers-list__item"><a href="" class="customers-list__link"><svg width="106" height="60">
               <use href="./images/symbol-defs.svg#icon-company"></use>
             </svg></a></li>
-            <li class="ccustomers-list__item"><a href="" class="customers-list__link"><svg width="106" height="60">
+            <li class="customers-list__item"><a href="" class="customers-list__link"><svg width="106" height="60">
               <use href="./images/symbol-defs.svg#icon-foster-peters"></use>
             </svg></a></li>
             <li class="customers-list__item"><a href="" class="customers-list__link"><svg width="106" height="60">
@@ -417,5 +467,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
