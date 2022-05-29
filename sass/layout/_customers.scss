@@ -4,6 +4,10 @@
     margin-left: -30px;
     margin-bottom: -30px;
     justify-content: space-between;
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+  }
   }
   
   .customers-list__link{
@@ -40,6 +44,8 @@
     @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 90px) / 3);
   }
+
+  
   }
     
   

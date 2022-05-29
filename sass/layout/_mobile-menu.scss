@@ -13,15 +13,20 @@ transition-duration: 450ms, 450ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
 
 .container{
-    height: 100%;
-padding-left: 40px;
-padding-right: 25px;
+height: 100%;
+padding-left: 20px;
+padding-right: 20px;
 padding-top: 21px;
 padding-bottom: 48px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 overflow-y: auto;
+
+@media screen and (min-width: 480px) {
+    padding-left: 40px;
+    padding-right: 25px;
+}
 }
 
 .is-hidden &{
@@ -57,7 +62,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .mobile-menu-link{
     font-weight: 500;
     font-size: 40px;
-    line-height: 47px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #212121;
     transition-property: color;
@@ -75,16 +80,21 @@ margin-bottom: 64px;
 }
 
 .mobile-menu-contacts-tel{
-    display: block;
+display: block;
 font-weight: 500;
-font-size: 34px;
-line-height: 40px;
+font-size: 24px;
+line-height: 1.16;
 letter-spacing: 0.02em;
 color: rgb(24, 140, 232);
 margin-bottom: 32px;
 transition-property: color;
 transition-duration: 450ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+@media screen and (min-width: 480px) {
+    font-size: 34px;
+    line-height: 1.17;
+}
 
 &:hover,
 &:focus{

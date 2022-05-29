@@ -110,6 +110,11 @@ img {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    display: flex;
+  }
+}
 
 .menu-list {
   display: block;
@@ -155,9 +160,14 @@ img {
   fill: var(--focus-color);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts-list__item:not(:last-child) {
     margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts-list__item:not(:last-child) {
+    margin-right: 50px;
   }
 }
 
@@ -211,6 +221,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .specifics__list {
+    flex-wrap: nowrap;
   }
 }
 
@@ -280,6 +295,12 @@ img {
     margin-left: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team-list__item {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-left: 30px;
+  }
+}
 
 .team-list__element {
   padding-top: 30px;
@@ -323,6 +344,15 @@ img {
   display: none;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 1200px) {
+  .section__development {
+    display: flex;
+  }
+}
+
+.section-development__list {
+  display: flex;
+}
 
 .section-development-list__item:not(:last-child) {
   margin-right: 30px;
@@ -355,6 +385,11 @@ img {
   margin-left: -30px;
   margin-bottom: -30px;
   justify-content: space-between;
+}
+@media screen and (min-width: 1200px) {
+  .customers__list {
+    flex-wrap: nowrap;
+  }
 }
 
 .customers-list__link {
@@ -446,6 +481,12 @@ img {
 .futer__container {
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .futer__container {
+    display: flex;
+    text-align-last: left;
+  }
+}
 
 .join-title {
   text-transform: uppercase;
@@ -468,6 +509,12 @@ img {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .join {
+    margin-left: 70px;
+    padding-top: 12px;
+  }
+}
 
 .soc-list__link--join {
   fill: #FFFFFF;
@@ -480,6 +527,11 @@ img {
 
 .footer__subscription {
   padding-top: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__subscription {
+    margin-left: 93px;
+  }
 }
 
 .subscription__title {
@@ -516,6 +568,12 @@ img {
     width: 450px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscription__input {
+    width: 358px;
+    margin-right: 12px;
+  }
+}
 .subscription__input:focus {
   border-color: var(--focus-color);
 }
@@ -530,6 +588,11 @@ img {
 .subscription__form {
   width: 100 vw;
 }
+@media screen and (min-width: 1200px) {
+  .subscription__form {
+    display: flex;
+  }
+}
 
 .subscription__icon {
   margin-left: 10px;
@@ -543,9 +606,31 @@ img {
   }
 }
 
+.portfolio-list {
+  margin-bottom: -30px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
+
 .portfolio-item {
   width: 100%;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-item {
+    flex-basis: calc((100% - 60px) / 2);
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 }
 
 .portfolio-description {
@@ -553,6 +638,7 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  flex-grow: 1;
 }
 
 .portfolio-element-title {
@@ -583,7 +669,9 @@ img {
 }
 
 .portfolio-element-link {
-  display: block;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -698,6 +786,12 @@ img {
   margin-bottom: 30px;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .modal-checkbox-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
 
 .modal-checkbox-text span {
   display: flex;
@@ -773,14 +867,20 @@ img {
 }
 .mobile-menu .container {
   height: 100%;
-  padding-left: 40px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 21px;
   padding-bottom: 48px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+}
+@media screen and (min-width: 480px) {
+  .mobile-menu .container {
+    padding-left: 40px;
+    padding-right: 25px;
+  }
 }
 .is-hidden .mobile-menu {
   transform: scale(0.2);
@@ -810,7 +910,7 @@ img {
 .mobile-menu-link {
   font-weight: 500;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: #212121;
   transition-property: color;
@@ -828,14 +928,20 @@ img {
 .mobile-menu-contacts-tel {
   display: block;
   font-weight: 500;
-  font-size: 34px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
   color: rgb(24, 140, 232);
   margin-bottom: 32px;
   transition-property: color;
   transition-duration: 450ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .mobile-menu-contacts-tel {
+    font-size: 34px;
+    line-height: 1.17;
+  }
 }
 .mobile-menu-contacts-tel:hover, .mobile-menu-contacts-tel:focus {
   color: var(--focus-color);
@@ -892,6 +998,11 @@ img {
   text-align: center;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .section-title {
+    margin-bottom: 50px;
+  }
+}
 
 .backdrop {
   position: fixed;
@@ -931,6 +1042,12 @@ img {
   flex-wrap: wrap;
   margin-bottom: 25px;
 }
+@media screen and (min-width: 768px) {
+  .portfolio-filter {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -938,6 +1055,11 @@ img {
 
 .filter-item {
   margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .filter-item {
+    margin-bottom: 0;
+  }
 }
 
 .button-filter {
@@ -965,6 +1087,12 @@ img {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .current {
@@ -1001,6 +1129,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
   overflow-y: auto;
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    min-height: 581px;
+  }
 }
 .backdrop.is-hidden .modal {
   transform: scale(0.2);
@@ -1045,6 +1179,11 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
   }
 }
 

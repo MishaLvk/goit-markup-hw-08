@@ -1,11 +1,15 @@
 .section__development {
   display: none;
   padding-bottom: 94px;
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+}
 }
 
 .section-development__list {
   
-  // display: flex;
+  display: flex;
 }
 
 .section-development-list__item:not(:last-child) {
