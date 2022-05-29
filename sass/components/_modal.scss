@@ -1,7 +1,7 @@
 .modal{
     position: absolute;
     width: 94vw;
-    height: 77vh;
+    min-height: 581px;
     max-width: 450px;
     // min-width: 450px;
     
@@ -18,9 +18,13 @@
     padding: 40px;
     overflow-y: auto;
 
+    @media screen and (max-width: 480px) {
+     height: 77vh;
+  }
+
     @media screen and (min-width: 1200px) {
       max-width: 528px;
-      min-height: 581px;
+      
   }
 
     .backdrop.is-hidden &{
