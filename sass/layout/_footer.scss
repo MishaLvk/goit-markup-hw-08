@@ -40,6 +40,10 @@
   
   .footer-contacts-list{
     margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+  }
   }
   
   .footer-contacts-list--address{
@@ -71,6 +75,10 @@
     // margin-left: 70px;
     // padding-top: 12px;
     margin-bottom: 60px;
+    @media screen and (min-width: 768px) {
+      padding-top: 5px;
+      margin-bottom: 0;
+  }
   }
   
     .soc-list__link--join{
@@ -100,8 +108,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    font-size: 16px;
-    // font-size: 14px;
+    // font-size: 16px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: var(--dominant-l-s);
   }
@@ -128,6 +136,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    @media screen and (min-width: 768px) {
+     width: 450px;
+  }
+
+
     &:focus{
     border-color: var(--focus-color);
   }
@@ -147,4 +160,12 @@
   
   .subscription__icon{
     margin-left: 10px;
+  }
+
+  .contacts{
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 60px;
+  }
   }

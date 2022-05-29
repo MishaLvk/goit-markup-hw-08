@@ -16,9 +16,6 @@
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-  
-    
-  
 
     transition-property: background-color, fill;
     transition-duration: 250ms, 250ms;
@@ -29,12 +26,20 @@
         border-color: #2196F3;
         fill: #2196F3;
     }
+
+    @media screen and (min-width: 768px) {
+      max-width: 226px;
+  }
   }
 
   .customers-list__item{
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 90px) / 3);
+  }
   }
     
   
