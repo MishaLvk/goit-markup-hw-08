@@ -7,7 +7,10 @@
   .logo__footer {
     display: inline-block;
     margin-bottom: 20px;
-    // margin-right: 93px;
+    ;
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px  
+  }
   }
   
   .logo--light {
@@ -16,7 +19,11 @@
   
   .footer-contacts-list__item:not(:last-child) {
     margin-bottom: 8px;
-    // margin-bottom: 9px;
+
+    @media screen and (min-width: 1200px) {
+     margin-bottom: 9px;
+  }
+    
   }
   
   .footer-contacts-list__link {

@@ -472,6 +472,11 @@ img {
   display: inline-block;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 1200px) {
+  .logo__footer {
+    margin-right: 93px;
+  }
+}
 
 .logo--light {
   color: rgb(255, 255, 255);
@@ -479,6 +484,11 @@ img {
 
 .footer-contacts-list__item:not(:last-child) {
   margin-bottom: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-contacts-list__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .footer-contacts-list__link {
