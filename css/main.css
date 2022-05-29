@@ -1088,6 +1088,11 @@ img {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .portfolio-filter {
+    margin-bottom: 50px;
+  }
+}
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
