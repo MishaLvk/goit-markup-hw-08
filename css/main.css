@@ -29,6 +29,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
@@ -319,6 +321,10 @@ img {
     flex-wrap: wrap;
     margin-left: -30px;
   }
+}
+
+.team-photo {
+  width: 100px;
 }
 
 .team-list__item {
