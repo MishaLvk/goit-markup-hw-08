@@ -374,11 +374,11 @@ img {
 }
 
 .soc-list__link--team {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .soc-list__link--team:hover, .soc-list__link--team:focus {
-  background-color: #2196F3;
-  fill: #FFFFFF;
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .section__development {
@@ -1046,6 +1046,77 @@ img {
   overflow: hidden;
 }
 
+.section-ubgd {
+  display: block;
+  width: 1200px;
+  min-height: 300px;
+  background-color: rgb(229, 22, 22);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  display: block;
+  width: 100%;
+}
+
+.opp-card {
+  display: block;
+  background-color: #fff;
+  max-width: 95%;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid rgb(0, 232, 31);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.opp-card-container {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.opp-card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-logo {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  background-color: black;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carg-title {
+  display: block;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  padding: 10px;
+  background-color: rgb(113, 33, 33);
+  text-align: center;
+  margin-left: 20px;
+}
+
 .section-title {
   font-size: 28px;
   line-height: 1.18;
@@ -1180,7 +1251,7 @@ img {
   width: 94vw;
   min-height: 581px;
   max-width: 450px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   top: 50%;
@@ -1216,7 +1287,7 @@ img {
   top: 8px;
   right: 8px;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;

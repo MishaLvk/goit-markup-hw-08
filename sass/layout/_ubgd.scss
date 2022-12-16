@@ -1,0 +1,84 @@
+.section-ubgd {
+  display: block;
+  width: 1200px;
+  min-height: 300px;
+  background-color: rgb(229, 22, 22);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .ubgd-title {
+//   color: aqua;
+// }
+
+.cards {
+  display: block;
+  width: 100%;
+}
+
+.opp-card {
+  display: block;
+  background-color: #fff;
+  max-width: 95%;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid rgb(0, 232, 31);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.opp-card-container {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  // justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.opp-card-link {
+  text-decoration: none;
+  // height: 100%;
+  color: black;
+}
+
+// .opp-card-container:hover,
+// .opp-card-container:focus {
+//   //   box-shadow: 10px 10px 25px rgba(15, 2, 6, 0.4);
+//   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.12), 6px 6px 6px rgba(0, 0, 0, 0.06),
+//     6px 9px 9px rgba(0, 0, 0, 0.16);
+//   transform: scale(1.1);
+// }
+
+.card-logo {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  background-color: black;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carg-title {
+  display: block;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  padding: 10px;
+  background-color: rgb(113, 33, 33);
+  text-align: center;
+  margin-left: 20px;
+}
